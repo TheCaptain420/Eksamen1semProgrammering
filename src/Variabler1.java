@@ -13,5 +13,6 @@ public class Variabler1 {
     public int testMetode2plus2(){
         return 2+2;
     }
+    int k = 5;
 
 }
