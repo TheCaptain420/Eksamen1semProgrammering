@@ -10,7 +10,24 @@ public class Kontrolstrukturer4 {
             System.out.println("you number is smaller than 5");
         }
 
+        //While
+        int k= 1;
+        while (k<=5){
+            System.out.println("Tæller : "+k);
+            k++;
+        }
 
+        //do While
+        int i= 6;
+        do{
+            System.out.println("Tæller : "+i);
+            i++;
+        }while(i<=10);
+
+        //for løkke
+        for(int j= 11; j<=15;j++ ){
+            System.out.println("Tæller : "+j);
+        }
 
         //switch
         String dag = "mandag";
