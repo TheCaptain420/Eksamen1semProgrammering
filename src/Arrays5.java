@@ -6,6 +6,8 @@ public class Arrays5 {
             arraytest[k]=randomTal; // giver værdien ind på
             System.out.println("Array "+k+" har fået værdien: "+ randomTal); //printer it
         }
+        arraytest[5] = 80;
+        System.out.println("Array 5 har fået ny værdi : "+ arraytest[5]);
 
     }
 }
