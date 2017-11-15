@@ -12,4 +12,5 @@ public class javaKlasseBoks3 {
         return længde*bredde*højde;
     }
 
+
 }
