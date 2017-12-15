@@ -17,7 +17,7 @@ public class Kontrolstrukturer4 {
             k++;
         }
 
-        //do While
+        //do While (Kører en gang før, den checker)
         int i= 6;
         do{
             System.out.println("Tæller : "+i);
