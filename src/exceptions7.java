@@ -1,22 +1,15 @@
-import java.io.*;
-class ThrowExample {
-    //den får fejlene her oppe
-  void myMethod(int num)throws IOException, ClassNotFoundException{ 
-     if(num==1)
-        throw new IOException("IOException Occurred");
-     else
-        throw new ClassNotFoundException("ClassNotFoundException");
-  } 
-} 
+public class exceptions7 {
+    public static void main(String[] args) {
 
-//og printer fejlene her nede.
-public class exceptions7{
-  public static void main(String args[]){ 
-   try{ 
-     ThrowExample obj=new ThrowExample(); 
-     obj.myMethod(1); 
-   }catch(Exception ex){ //HER
-     System.out.println(ex);
-    } 
-  }
+        try {
+            tester();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+
+    //Methode
+    public static void tester() throws InterruptedException{
+        Thread.sleep(1000); //Skal have TryCatch //pauser i 1 sec
+    }
 }
