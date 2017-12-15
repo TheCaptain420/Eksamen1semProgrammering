@@ -3,7 +3,7 @@ public class Arrays5 {
         int[] arraytest = new int[10];
         //for loop til indsættelse
         for (int k = 0; k <= 9; k++){
-            int randomTal = (int) (Math.random()*6); //laver et random tal
+            int randomTal = (int) (Math.random()*6); //laver et random tal (0-5)
             arraytest[k]=randomTal; // giver værdien ind på
             System.out.println("Array "+k+" har fået værdien: "+ randomTal); //printer it
         }
