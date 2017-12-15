@@ -1,6 +1,4 @@
 public class javaKlasseBoks3 {
-    //constructor
-    javaKlasseBoks3(String typeBox){}
 
     //declare var
     double længde;
@@ -12,5 +10,8 @@ public class javaKlasseBoks3 {
         return længde*bredde*højde;
     }
 
-
+    //constructor
+    javaKlasseBoks3(String typeBox){
+        System.out.println("This box is a " + typeBox + ".");
+    }
 }

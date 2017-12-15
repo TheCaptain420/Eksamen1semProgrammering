@@ -15,7 +15,7 @@ public class exceptions7{
    try{ 
      ThrowExample obj=new ThrowExample(); 
      obj.myMethod(1); 
-   }catch(Exception ex){
+   }catch(Exception ex){ //HER
      System.out.println(ex);
     } 
   }
