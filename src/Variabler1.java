@@ -4,7 +4,7 @@ public class Variabler1 {
     
     //lokalvariable:
     void printSecretNumber(){
-        private int k = 123;//<--
+        int k = 123;//<--
         System.out.println(k); 
     }
     
